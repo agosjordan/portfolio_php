@@ -1,0 +1,172 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    color: #E20000;
+    font-weight: 800;
+}
+p{
+    color: #6A6A6A;
+    font-weight: 500;
+}
+
+/*nav*/
+.navbar{
+    padding: 0px;
+    padding-top: 15px;
+}
+.nav-link{
+    color: #282828;
+    font-weight: 600;
+}
+.active{
+    border: 1px solid #E20000;
+    border-radius: 30px;
+}
+/*descargar cv*/
+a.cv{ 
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    border: #E20000 1px solid;
+    border-radius: 20px;
+    background-color: #E20000;
+    padding: 2px 19px;
+}
+nav i{
+    color: white;
+    font-size: 15px;
+}
+/*fin nav*/
+
+
+#contacto{
+    background-image: url(../images/fondo-contacto.png);
+    background-size: 100%;
+}
+#contacto main{
+    height: 74vh;
+}
+/*formulario*/
+.form-control{
+    border-radius: 10px;
+    border: 0px
+}
+textarea.form-control{
+    height: 160px;
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: rgb(73, 10, 73);
+    font-weight: 700;
+    height: 42px;
+    width: 180px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: rgb(73, 10, 73);
+    color: white;
+}
+/*fin formularioContc*/
+
+footer{
+    width: 100%;
+    color: white;
+}
+footer a{
+    color: white;
+}
+footer i{
+    font-size: 32px;
+    color: white;
+}
+.fa-linkedin-in{
+    color: #E20000;
+    background-color: white;
+    font-size: 20px;
+    border: 0px;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    padding: 8px 0 0 0;
+    border-radius: 80px;
+    margin: 0 8px;
+}
+.fa-whatsapp{
+    color: white;
+    background-color: #510075;
+    padding: 7px 22px 28px 22px;
+    border-top-right-radius: 11px;
+    border-top-left-radius: 11px;
+}
+
+/*Sobre mi*/
+#sobre-mi{
+    background-image: url(../images/fondo\ sobre\ mi.png);
+    background-size: contain;
+}
+
+.btn-cv{
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+    border: #E20000 1px solid;
+    border-radius: 20px;
+    background-color: #E20000;
+    padding: 9px 19px;
+}
+#sobre-mi footer{
+    color: #E20000;
+}
+#sobre-mi footer a{
+    color: #E20000;
+}
+#sobre-mi .fa-linkedin-in{
+    color:white;
+    background-color: #E20000;
+}
+#sobre-mi .fa-github{
+    color: #E20000;
+    font-size: 32px;
+}
+#tecnologias{
+    background-color: #E20000;
+}
+.img-tecno{
+
+}
+#idiomas, #estudios{
+    background-color: rgba(238, 238, 238, 0.884);
+}
+
+/*proyectos*/
+#proyecto{
+    background-image: url(../images/fondo\ sobre\ mi.png);
+    background-size: cover;
+}
+#proyecto main{
+    height:74vh
+}
+#proyecto footer{
+    color: #E20000;
+}
+#proyecto footer a{
+    color: #E20000;
+}
+#proyecto .fa-linkedin-in{
+    color:white;
+    background-color: #E20000;
+}
+#proyecto .fa-github{
+    color: #E20000;
+}
+
+/*inicio*/
+#index{
+    background-image: url(../images/fondo\ index.png);
+    background-size: cover;
+}
+#index main{
+    height: 74vh;
+}
