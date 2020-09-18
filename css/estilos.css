@@ -3,11 +3,28 @@ body{
 }
 h1{
     color: #E20000;
-    font-weight: 800;
+    font-weight: 600;
 }
 p{
     color: #6A6A6A;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 14px;
+}
+h2{
+    color: white;
+    font-size: 22px;
+}
+h3{
+    color: #282828;
+    font-weight: 300;
+    font-size: 14px;
+}
+h4{
+    font-size: 16px;
+    font-weight: 600;
+}
+h5{
+    font-size: 16px;
 }
 
 /*nav*/
@@ -43,6 +60,7 @@ nav i{
 #contacto{
     background-image: url(../images/fondo-contacto.png);
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 #contacto main{
     height: 74vh;
@@ -58,14 +76,14 @@ textarea.form-control{
 .btn{
     border: 1px solid white;
     border-radius: 20px;
-    color: rgb(73, 10, 73);
+    color: #370A6D;
     font-weight: 700;
     height: 42px;
     width: 180px;
     background-color: white;
 }
 .btn:hover{
-    background-color: rgb(73, 10, 73);
+    background-color: #370A6D;
     color: white;
 }
 /*fin formularioContc*/
@@ -73,6 +91,7 @@ textarea.form-control{
 footer{
     width: 100%;
     color: white;
+    font-size: 15px;
 }
 footer a{
     color: white;
@@ -95,7 +114,7 @@ footer i{
 }
 .fa-whatsapp{
     color: white;
-    background-color: #510075;
+    background-color: #370A6D;
     padding: 7px 22px 28px 22px;
     border-top-right-radius: 11px;
     border-top-left-radius: 11px;
@@ -105,8 +124,12 @@ footer i{
 #sobre-mi{
     background-image: url(../images/fondo\ sobre\ mi.png);
     background-size: contain;
+    background-repeat: no-repeat;
 }
+.perfil{
+    height: 344px;
 
+}
 .btn-cv{
     font-weight: 500;
     font-size: 14px;
@@ -116,8 +139,15 @@ footer i{
     background-color: #E20000;
     padding: 9px 19px;
 }
+.btn-cv:hover{
+    color: #E20000;
+    background-color: white;
+    text-decoration: unset;
+}
+
 #sobre-mi footer{
     color: #E20000;
+    background-color: #EDEDED
 }
 #sobre-mi footer a{
     color: #E20000;
@@ -130,28 +160,162 @@ footer i{
     color: #E20000;
     font-size: 32px;
 }
-#tecnologias{
-    background-color: #E20000;
-}
-.img-tecno{
 
+#sobre-mi .card{
+    border-radius: 24px;
+    height: 195px;
+    width: 160px;
 }
+
 #idiomas, #estudios{
-    background-color: rgba(238, 238, 238, 0.884);
+    background-color: #EDEDED;
+}
+#idiomas li{
+    list-style-type: none;
+}
+#experiencia{
+    background-color: white;
+}
+.burbuja{
+    border-radius: 18px;
+    height: 154px;
+    font-size: 13px;
+    font-weight: 500;
+    background-color: white;
+}
+.big-icons{
+    font-weight: 900;
+    font-size: 66px;
+    padding: 44px 35px 44px 39px;
+    background-color: #370A6D;
+    color: white;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#experiencia h2{
+    color: #370A6D;
+    display: inline-block;
 }
 
+#experiencia h5, .icon{
+    color: #370A6D;
+
+}
+#experiencia, #estudios ul{
+    font-size: 12px;
+    list-style-type: disc;
+    font-weight: 600;
+}
+#experiencia .bubble{
+    border-radius: 27px;
+}
+#estudios h2{
+    color: #E20000;
+    display: inline-block;
+}
+#estudios h5{
+    color: #E20000;
+}
+#estudios .icon{
+    color: #E20000;
+}
+#estudios .bubble{
+    border-radius: 27px;
+    background-color: #ffffff;
+}
+#estudios .btn-empresa{
+    background-color: #E20000;
+    border: #E20000;
+}
+#estudios .btn-empresa:hover{
+    background-color: #ffffff;
+    color: #E20000;
+    border: 1px solid #E20000;
+}
+.btn-empresa{
+    background-color: #370A6D;
+    color:  #ffffff;
+    border-radius: 16px;
+    font-size: 11px;
+    border: 1px solid #370A6D;
+    padding: 8px 19px;
+    font-weight: 500;
+}
+.btn-empresa:hover{
+    background-color: white;
+    color: #370A6D;
+    text-decoration: unset;
+}
+#experiencia p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.text-muted{
+    font-size: 17px;
+    font-weight: 500;
+}
+.fecha{
+    font-size: 13px;
+}
+.icon{
+    font-size: 50px;
+}
+#estudios h3{
+    color: #E20000;
+}
 /*proyectos*/
 #proyecto{
     background-image: url(../images/fondo\ sobre\ mi.png);
     background-size: cover;
 }
-#proyecto main{
-    height:74vh
+
+#proyecto h2{
+    font-size: 16px;
+}
+.items p{
+    font-size: 13px;
+    height: 130px;
+}
+#proyecto .btn-rojo{
+    background-color: #E20000;
+    border: 1px solid #E20000;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    height: 37px;
+    width: 125px;
+}
+#proyecto .btn-rojo:hover{
+    color: #E20000;
+    background-color: white;
+    text-decoration: unset;
+}
+
+#proyecto .img-fluid{
+    height: 173px;
+}
+.color-gradiente{
+    background: rgba(174,32,19,1);
+background: -moz-linear-gradient(left, rgba(174,32,19,1) 0%, rgba(182,32,12,1) 15%, rgba(182,29,9,1) 23%, rgba(182,28,8,1) 25%, rgba(182,27,7,1) 27%, rgba(182,27,7,1) 44%, rgba(207,37,7,1) 52%, rgba(221,46,19,1) 65%, rgba(226,41,8,1) 92%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(174,32,19,1)), color-stop(15%, rgba(182,32,12,1)), color-stop(23%, rgba(182,29,9,1)), color-stop(25%, rgba(182,28,8,1)), color-stop(27%, rgba(182,27,7,1)), color-stop(44%, rgba(182,27,7,1)), color-stop(52%, rgba(207,37,7,1)), color-stop(65%, rgba(221,46,19,1)), color-stop(92%, rgba(226,41,8,1)));
+background: -webkit-linear-gradient(left, rgba(174,32,19,1) 0%, rgba(182,32,12,1) 15%, rgba(182,29,9,1) 23%, rgba(182,28,8,1) 25%, rgba(182,27,7,1) 27%, rgba(182,27,7,1) 44%, rgba(207,37,7,1) 52%, rgba(221,46,19,1) 65%, rgba(226,41,8,1) 92%);
+background: -o-linear-gradient(left, rgba(174,32,19,1) 0%, rgba(182,32,12,1) 15%, rgba(182,29,9,1) 23%, rgba(182,28,8,1) 25%, rgba(182,27,7,1) 27%, rgba(182,27,7,1) 44%, rgba(207,37,7,1) 52%, rgba(221,46,19,1) 65%, rgba(226,41,8,1) 92%);
+background: -ms-linear-gradient(left, rgba(174,32,19,1) 0%, rgba(182,32,12,1) 15%, rgba(182,29,9,1) 23%, rgba(182,28,8,1) 25%, rgba(182,27,7,1) 27%, rgba(182,27,7,1) 44%, rgba(207,37,7,1) 52%, rgba(221,46,19,1) 65%, rgba(226,41,8,1) 92%);
+background: linear-gradient(to right, rgba(174,32,19,1) 0%, rgba(182,32,12,1) 15%, rgba(182,29,9,1) 23%, rgba(182,28,8,1) 25%, rgba(182,27,7,1) 27%, rgba(182,27,7,1) 44%, rgba(207,37,7,1) 52%, rgba(221,46,19,1) 65%, rgba(226,41,8,1) 92%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ae2013', endColorstr='#e22908', GradientType=1 );
+color: white;
+}
+.link-rojo{
+    font-size: 14px;
+}
+.link-rojo:hover{
+    color: #E20000;
 }
 #proyecto footer{
     color: #E20000;
 }
-#proyecto footer a{
+#proyecto footer a, .link-rojo{
     color: #E20000;
 }
 #proyecto .fa-linkedin-in{
@@ -166,7 +330,48 @@ footer i{
 #index{
     background-image: url(../images/fondo\ index.png);
     background-size: cover;
+    background-position-y: -204px;
+    background-position-x: 0;
+
 }
 #index main{
-    height: 74vh;
+    height: 75vh;
+}
+.nombre{
+  
+}   
+#index h2{
+    font-weight: 400;
+    color: black;
+}
+
+@media (max-width: 700px) {/* Para mobile */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: 0px;
+        background-position-x: 0;
+    }
+    .navbar-toggler{
+       background-color: #E20000;
+    }
+    #contacto{
+        background-color: #E20000;
+    }
+}
+@media (max-width: 768px) {/* Para tablet */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -100px;
+        background-position-x: 0;
+    }
+}
+@media (max-width: 1200px) {/* Para monitores mas grandes */
+    #inicio {
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: -180px;
+        background-position-x: 0;
+    }
 }
