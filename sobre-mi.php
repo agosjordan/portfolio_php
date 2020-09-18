@@ -4,10 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
@@ -29,16 +27,16 @@
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item mr-5">
-                            <a class="nav-link" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item mr-5 active">
-                            <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+                            <a class="nav-link" href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item mr-5">
-                            <a class="nav-link" href="proyecto.html">Proyectos</a>
+                            <a class="nav-link active" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item mr-5">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link" href="proyecto.php">Proyectos</a>
+                        </li>
+                        <li class="nav-item mr-5 ">
+                            <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
 
@@ -74,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-sm-5 offset-sm-1 col-12 pt-5 py-sm-0 ">
-                    <img class="perfil" src="images/fotoperfil.svg" alt="foto de perfil">
+                    <img class="perfil" src="images/perfil.png" alt="foto de perfil">
                     <!----IMAGEN-->
                 </div>
             </div>
@@ -90,8 +88,7 @@
             <div class="row">
                 <div class="col-sm-2 col-6 mb-4 mb-sm-0 text-center">
                     <div class="card pt-2 mx-0">
-                        <img class="mx-auto" width="130" src="images/Javascript.png"
-                            alt="Javascript" />
+                        <img class="mx-auto" width="130" src="images/Javascript.png" alt="Javascript" />
                         <h3 class="text-center pt-3">Javascript</h3>
                     </div>
                 </div>
@@ -247,7 +244,7 @@
                     <div
                         class="row no-gutters overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow bubble">
                         <div class="col-auto px-4 pt-4">
-                            <img src="images/Logo.png">
+                            <img class="img-logo" src="images/Logo.png" alt="Logo">
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block text-muted">Secretaria</strong>
@@ -268,9 +265,9 @@
                     <div
                         class="row no-gutters overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow bubble">
                         <div class="col-auto px-4 pt-4">
-                            <img src="images/Logo.png">
+                            <img class="img-logo" src="images/gms.jpg" alt="logo gms">
                         </div>
-                        <div class="col p-4 d-flex flex-column position-static">
+                        <div class="col p-4 d-flex flex-column position-static" >
                             <strong class="d-inline-block text-muted">Teleoperadora</strong>
                             <h5 class="mb-2">GMS</h5>
                             <div class="mb-2 text-muted fecha">May 16 - Dic 17</div>
@@ -301,9 +298,9 @@
                     <div
                         class="row no-gutters overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow bubble">
                         <div class="col-auto px-4 pt-4">
-                            <img src="images/uba 1.svg">
-                        </div>
-                        <div class="col p-4 d-flex flex-column position-static">
+                            <img class="img-logo" src="images/uba.png" alt="logo gms">
+                        </div>  
+                        <div class="col p-4 d-flex flex-column position-static" >
                             <strong class="d-inline-block text-muted">Licenciada en Ciencia Política</strong>
                             <h5 class="mb-2">Universidad de Buenos Aires</h5>
                             <div class="mb-2 text-muted fecha">Mar 12 - Nov 18</div>
@@ -322,7 +319,7 @@
                     <div
                         class="row no-gutters overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow bubble">
                         <div class="col-auto px-4 pt-4">
-                            <img src="images/Logo2.png">
+                            <img class="img-logo" src="images/Logo2.png" alt="logo depc">
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
                             <strong class="d-inline-block text-muted">Programación Web Full-Stack</strong>

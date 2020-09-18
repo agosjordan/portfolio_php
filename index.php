@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
@@ -26,28 +26,31 @@
             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item mr-5">
-                        <a class="nav-link active" href="index.html">Inicio</a>
+                        <a class="nav-link active" href="index.php">Inicio</a>
                     </li>
                     <li class="nav-item mr-5">
-                        <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
+                        <a class="nav-link" href="sobre-mi.php">Sobre mí</a>
                     </li>
                     <li class="nav-item mr-5">
-                        <a class="nav-link" href="proyecto.html">Proyectos</a>
+                        <a class="nav-link" href="proyecto.php">Proyectos</a>
                     </li>
                     <li class="nav-item mr-5 ">
-                        <a class="nav-link" href="contacto.html">Contacto</a>
+                        <a class="nav-link" href="contacto.php">Contacto</a>
                     </li>
                 </ul>
 
                 <div class="form-inline my-2 my-lg-0">
-                    <a href="" class="cv">DESCARGÁ MI CV</a>
+                    <a href="" class="cv">DESCARGÁ MI CV <i class="fas fa-download"></i></a>
                 </div>
             </div>
         </nav>
     </div>
     <main>
-        <div class="text-center nombre">
-           <h2>Hola mi nombre es Agostina, soy desarrolladora full stack  |  <i class="fas fa-search search"></i></h2>   
+        <div class=" nombre">
+           <h2 class="text-center">Hola mi nombre es Agostina, soy desarrolladora full stack  |  <i class="fas fa-search search"></i></h2>   
+        </div>
+        <div class="text-center" >
+            <button type="submit" class="btn shadow">MIRA MI TRABAJO</button>
         </div>
     </main>
     <footer>

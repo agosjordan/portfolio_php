@@ -4,14 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
     <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilos.css">
-    <script src="css/bootstrap/js/bootstrap.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="css/bootstrap/js/bootstrap.min.js"></script>
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body id="proyecto">
@@ -27,16 +28,16 @@
                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item mr-5">
-                            <a class="nav-link" href="index.html">Inicio</a>
+                            <a class="nav-link " href="index.php">Inicio</a>
                         </li>
                         <li class="nav-item mr-5">
-                            <a class="nav-link" href="sobre-mi.html">Sobre mí</a>
-                        </li>
-                        <li class="nav-item mr-5 active">
-                            <a class="nav-link" href="proyecto.html">Proyectos</a>
+                            <a class="nav-link" href="sobre-mi.php">Sobre mí</a>
                         </li>
                         <li class="nav-item mr-5">
-                            <a class="nav-link" href="contacto.html">Contacto</a>
+                            <a class="nav-link active" href="proyecto.php">Proyectos</a>
+                        </li>
+                        <li class="nav-item mr-5 ">
+                            <a class="nav-link" href="contacto.php">Contacto</a>
                         </li>
                     </ul>
 
@@ -61,7 +62,7 @@
             </div>
             <div class="row items mt-5">
                 <div class="col-sm-4 col-12 "> 
-                    <div class="row card m-1 shadow">               
+                    <div class="row card m-1 ">               
                         <img src="images/abmclientes.png" alt="ABM clientes" title="ABM clientes" class="img-fluid">
                         <div class="col-12 color-gradiente py-3">                    
                             <h2>ABM CLIENTES</h2>
@@ -80,7 +81,7 @@
                     </div>    
                 </div>  
                 <div class="col-sm-4 col-12 mt-5 mt-sm-0">
-                    <div class="row card m-1 shadow">      
+                    <div class="row card m-1 ">      
                         <img src="images/gestionventas.png" alt="Sistema de Gestion de Ventas" title="Sistema de Gestion de Ventas" class="img-fluid">
                         <div class="col-12 color-gradiente py-3">                    
                             <h2>SISTEMA DE GESTIÓN DE VENTAS</h2>
@@ -99,7 +100,7 @@
                     </div>
                 </div>
                 <div class="col-sm-4 col-12 mt-5 mt-sm-0">
-                    <div class="row card m-1 shadow">    
+                    <div class="row card m-1">    
                         <img src="images/proyectinte.png" alt="Proyecto Final" title="Proyecto Final" class="img-fluid">
                         <div class="col-12 color-gradiente py-3">                    
                             <h2>PROYECTO FINAL</h2>
