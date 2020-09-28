@@ -1,3 +1,6 @@
+<?php
+    $pg="sobre-mi";
+?>
 <!DOCTYPE html>
 <html lang="es">
 
@@ -18,33 +21,7 @@
 <body id="sobre-mi">
     <header>
         <div class="container">
-            <nav class="navbar navbar-expand-md ">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="index.php">Inicio</a>
-                        </li>
-                        <li class="nav-item mr-5">
-                            <a class="nav-link active" href="sobre-mi.php">Sobre mí</a>
-                        </li>
-                        <li class="nav-item mr-5">
-                            <a class="nav-link" href="proyecto.php">Proyectos</a>
-                        </li>
-                        <li class="nav-item mr-5 ">
-                            <a class="nav-link" href="contacto.php">Contacto</a>
-                        </li>
-                    </ul>
-
-                    <div class="form-inline my-2 my-lg-0">
-                        <a href="" class="cv">DESCARGÁ MI CV <i class="fas fa-download"></i></a>
-                    </div>
-                </div>
-            </nav>
+            <?php include_once("menu.php"); ?>
         </div>
     </header>
     <main>
@@ -63,7 +40,7 @@
                         <div class="row mt-5">
                             <div class="col-sm-6 col-6">
                                 <a href="https://github.com" target="blank"><i class="fab fa-github"></i></a>
-                                <a href="https://www.linkedin.com/in/agosjordan/"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://www.linkedin.com/in/agosjordan/" target="blank"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                             <div class="col-sm-6 col-6">
                                 <a href="" class="btn-cv">DESCARGÁ MI CV</a>
@@ -198,7 +175,7 @@
                 <div class="col-md-6 col-12">
                     <div
                         class="row no-gutters overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow burbuja">
-                        <div class="col-auto d-none d-lg-block">
+                        <div class="col-auto ">
                             <i class="fas fa-comment-alt big-icons"></i>
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">
@@ -214,7 +191,7 @@
                 <div class="col-sm-6 col-12">
                     <div
                         class="row no-gutters overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative shadow burbuja">
-                        <div class="col-auto d-none d-lg-block">
+                        <div class="col-auto ">
                             <i class="fas fa-star big-icons"></i>
                         </div>
                         <div class="col p-4 d-flex flex-column position-static">

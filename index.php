@@ -1,3 +1,6 @@
+<?php
+    $pg="inicio";
+?>
 <!DOCTYPE html>
 <html lang="es">
     
@@ -15,36 +18,11 @@
     <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
 </head>
 <body id="index">
-    <div class="container">
-        <nav class="navbar navbar-expand-md ">
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item mr-5">
-                        <a class="nav-link active" href="index.php">Inicio</a>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <a class="nav-link" href="sobre-mi.php">Sobre mí</a>
-                    </li>
-                    <li class="nav-item mr-5">
-                        <a class="nav-link" href="proyecto.php">Proyectos</a>
-                    </li>
-                    <li class="nav-item mr-5 ">
-                        <a class="nav-link" href="contacto.php">Contacto</a>
-                    </li>
-                </ul>
-
-                <div class="form-inline my-2 my-lg-0">
-                    <a href="" class="cv">DESCARGÁ MI CV <i class="fas fa-download"></i></a>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <div class="container">
+        <?php include_once("menu.php"); ?>
+        </div>
+    </header>
     <main>
         <div class=" nombre">
            <h2 class="text-center">Hola mi nombre es Agostina, soy desarrolladora full stack  |  <i class="fas fa-search search"></i></h2>   
