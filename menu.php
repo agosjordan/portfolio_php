@@ -26,4 +26,4 @@
     </div>
 </nav>
 
-<?php echo $pg == "inicio"? "active" : ""; ?>
+
