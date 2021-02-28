@@ -84,6 +84,7 @@ textarea.form-control{
     height: 42px;
     width: 180px;
     background-color: white;
+    padding: 10px;
 }
 .btn:hover{
     background-color: #370A6D;
@@ -291,6 +292,7 @@ footer i{
     font-weight: 500;
     height: 37px;
     width: 125px;
+    padding: 8px;
 }
 #proyecto .btn-rojo:hover{
     color: #E20000;

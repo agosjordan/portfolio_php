@@ -8,7 +8,7 @@
                     <span id="sponsor">Sponsor: </span> <a href="http://depcsuite.com" target="blank" title="depcsuite">DePc suite</a>
                 </div>
                 <div class="col-sm-3 col-12 text-sm-left text-center">
-                    <a href="mailito:agos.jordan@hotmail.com">agos.jordan@hotmail.com</a>
+                    <a href="mailito:agos.jordan@hotmail.com">agos.jordan@gmail.com</a>
                 </div>
                 <div class="col-sm-3 col-12 text-right">
                     <a href="https://api.whatsapp.com/send?phone=541134131093" target="blank" title="whatsapp"><i class="fab fa-whatsapp"></i></a>

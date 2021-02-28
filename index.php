@@ -28,7 +28,7 @@
            <h2 class="text-center">Hola mi nombre es Agostina, soy desarrolladora full stack  |  <i class="fas fa-search search"></i></h2>   
         </div>
         <div class="text-center" >
-            <button type="submit" class="btn shadow">MIRA MI TRABAJO</button>
+            <a class="btn shadow" href="proyecto.php">MIRA MI TRABAJO</a>
         </div>
     </main>
     <footer>
